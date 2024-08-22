@@ -1,7 +1,7 @@
 <p align="center">  
   <a href="">
-    <img alt="NARUTO" height="300" src="https://telegra.ph/file/d92cb3a5e5ca3e490fcbf.jpg">
-    <h1 align="center">NARUTO-BUG 1.O</h1>
+    <img alt="NARUTO" height="300" src="https://telegra.ph/file/0b76086099a9a8e4ce244.jpg">
+    <h1 align="center">NARUTO-BUG 1.1</h1>
   </a>
 </p>
 <p align="center">
@@ -19,6 +19,14 @@ NARUTO-V1-BUG Whatsapp crasher Multi Device whatsapp bot.
 
 ***
 
+####
+``` what new ? ```
+Added video menu 
+Added Additional commands
+Fixed all commands
+Added pc bugs 
+and many more....
+
 #### SETUP
 
 1. Fork the repo
@@ -27,16 +35,11 @@ NARUTO-V1-BUG Whatsapp crasher Multi Device whatsapp bot.
 
 
 
-2. Get Session ID (Server 1)
+2. Get Session ID (Plus session id updated)
    > if not generating code please use the second one or scan method
     
-     <a href='https://ednut-pair-code.onrender.com/' target="_blank"><img alt='SESSION ID' src='https://img.shields.io/badge/Session_id-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
-
-
-3. Get Session ID (Server 2) (use this if server 1 Doesn't work)
-    <br>
-<a href='https://replit.com/@lolednut/ednut-pair-code' target="_blank"><img alt='SESSION ID' src='https://img.shields.io/badge/Session_id-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
-
+     <a href='https://ednut-tech-web.onrender.com' target="_blank"><img alt='SESSION ID' src='https://img.shields.io/badge/Session_id-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+     
 
 #### DEPLOY TO Toystack
 
